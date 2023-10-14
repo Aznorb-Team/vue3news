@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-color: #b3e5fc;
+}
+
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #a4c6d3;
+}
+
+.container {
+	padding: 0 20px;
+	margin: 0 auto;
+	max-width: 1920px;
+}
+
+.counter {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 32px;
+	font-weight: 600;
+	color: #9e2222;
+}
+
+.btn {
+	/* padding: 10px 35x; */
+	/* border: 0; */
+	border-radius: 10px;
+	background-color: #8bd867;
+	cursor: pointer;
+}
+
+.card-news {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 1rem;
+}
+
+.row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.card{
+	position: relative;
+}
+.card-action{
+	position: absolute;
+	bottom: 0px;
+}
+.main{
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.brand-logo{
+	margin-left: 15px;
+}
+
